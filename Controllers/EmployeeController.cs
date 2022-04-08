@@ -34,6 +34,8 @@ namespace FirstAPI.Controllers
             return "Jyoti";
         }
 
+        
+
         [HttpGet]
         public ActionResult<int> GetMethod()
         {
@@ -41,7 +43,7 @@ namespace FirstAPI.Controllers
         }
 		
 		[HttpGet]
-        public ActionResult GetMethod(Copied)
+        public ActionResult GetMethod(string Copied)
         {
             return Ok();
         }
