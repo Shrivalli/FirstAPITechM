@@ -28,11 +28,16 @@ namespace FirstAPI.Controllers
         {
             return "Alhad";
         }
+        [HttpGet]
+        public ActionResult<string> GetAlhad()
+        {
+            return "Jyoti";
+        }
 
         [HttpGet]
-        public ActionResult GetMethod()
+        public ActionResult<int> GetMethod()
         {
-            return Ok();
+            return 5;
         }
 		
 		[HttpGet]
