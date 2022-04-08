@@ -37,7 +37,7 @@ namespace FirstAPI.Controllers
         [HttpGet]
         public ActionResult<int> GetMethod()
         {
-            return 5;
+            return 10;
         }
 		
 		[HttpGet]
