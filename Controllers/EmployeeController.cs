@@ -29,7 +29,7 @@ namespace FirstAPI.Controllers
             return "Alhad";
         }
         [HttpGet]
-        public ActionResult<string> GetAlhad()
+        public ActionResult<string> GetJyoti()
         {
             return "Jyoti";
         }
