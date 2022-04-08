@@ -16,5 +16,11 @@ namespace FirstAPI.Controllers
         {
             return "welcome";
         }
+
+        [HttpGet]
+        public ActionResult<string> GetData()
+        {
+            return "Shrivalli";
+        }
     }
 }
