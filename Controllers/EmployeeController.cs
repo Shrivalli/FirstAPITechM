@@ -30,9 +30,9 @@ namespace FirstAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetMethod()
+        public ActionResult<int> GetMethod()
         {
-            return Ok();
+            return 5;
         }
     }
 }
