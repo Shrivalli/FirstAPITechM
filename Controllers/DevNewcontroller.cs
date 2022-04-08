@@ -17,6 +17,14 @@ namespace FirstAPI.Controllers
             return "Dev";
         }
 
+        [HttpGet]
+        public ActionResult<string> GetDev2()
+        {
+            return "Dev2";
+        }
+
+
+
 
     }
 }
