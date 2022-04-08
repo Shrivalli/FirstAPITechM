@@ -35,7 +35,13 @@ namespace FirstAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetMethod()
+        public ActionResult<int> GetMethod()
+        {
+            return 5;
+        }
+		
+		[HttpGet]
+        public ActionResult GetMethod(Copied)
         {
             return Ok();
         }
