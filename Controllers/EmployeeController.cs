@@ -34,5 +34,11 @@ namespace FirstAPI.Controllers
         {
             return Ok();
         }
+		
+		[HttpGet]
+        public ActionResult GetMethod(Copied)
+        {
+            return Ok();
+        }
     }
 }
