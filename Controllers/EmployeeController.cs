@@ -22,5 +22,11 @@ namespace FirstAPI.Controllers
         {
             return "Shrivalli";
         }
+
+        [HttpGet]
+        public ActionResult<string> GetAlhad()
+        {
+            return "Alhad";
+        }
     }
 }
